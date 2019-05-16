@@ -15,8 +15,8 @@
     <title>PHP cookies</title>
   </head>
   <body>
-    <form class="" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-      <input type="text" name="usename" value="" placeholder="username">
+    <form class="" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+      <input type="text" name="username" value="" placeholder="username">
       <br>
       <input type="submit" name="submit" value="Submit">
     </form>
